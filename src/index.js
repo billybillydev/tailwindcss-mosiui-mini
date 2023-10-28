@@ -1,12 +1,11 @@
-import plugin from "tailwindcss/plugin";
-import { typographyClass } from "./base/typography";
-import { buttonClass } from "./components/button";
-import { inputClass } from "./components/input";
-import { checkboxClass } from "./components/checkbox";
-import { linkClass } from "./components/link";
+const plugin = require("tailwindcss/plugin");
+const typographyClass = require("./base/typography");
+const buttonClass = require("./components/button");
+const inputClass = require("./components/input");
+const checkboxClass = require("./components/checkbox");
+const linkClass = require("./components/link");
 
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [],
   pattern: /([a-zA-Z]+)-./,
   theme: {

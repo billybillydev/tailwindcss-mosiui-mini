@@ -4,14 +4,13 @@
   "description": "A minimal tailwind preset for mosiui",
   "keywords": [
     "design-system",
-    "tailwond-preset",
+    "tailwind-preset",
     "libraries",
     "css",
     "tailwind",
     "mosiui"
   ],
   "main": "src/index.js",
-  "module": "esm",
   "author": "billybillydev",
   "license": "MIT",
   "repository": "https://github.com/billybillydev/tailwindcss-mosiui-mini",

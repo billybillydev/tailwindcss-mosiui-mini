@@ -1,4 +1,4 @@
-export const buttonClass = (theme) => ({
+module.exports = (theme) => ({
   btn: {
     boxSizing: "border-box",
     display: "flex",

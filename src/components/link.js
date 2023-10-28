@@ -1,4 +1,4 @@
-export const linkClass = (theme) => ({
+module.exports = (theme) => ({
   ".link": {
     color: theme("textColor.slate.500"),
     fontWeight: theme("fontWeight.medium"),

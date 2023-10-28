@@ -1,4 +1,4 @@
-export const checkboxClass = (theme) => ({
+module.exports = (theme) => ({
   checkbox: {
     border: `1px solid ${theme("borderColor.DEFAULT")}`,
     borderRadius: theme("borderRadius.sm"),

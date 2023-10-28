@@ -1,4 +1,4 @@
-export const inputClass = (theme) => ({
+module.exports = (theme) => ({
   input: {
     width: "100%",
     padding: `${theme("spacing.1")} ${theme("spacing.2")}`,

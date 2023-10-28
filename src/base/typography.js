@@ -1,4 +1,4 @@
-export const typographyClass = (theme) => ({
+module.exports = (theme) => ({
   h1: {
     fontSize: theme("fontSize.3xl"),
   },
