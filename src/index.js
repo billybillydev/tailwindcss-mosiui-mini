@@ -25,7 +25,13 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(function ({ addComponents, addBase, addUtilities, theme }) {
+    plugin(function ({
+      addComponents,
+      addBase,
+      addUtilities,
+      matchUtilities,
+      theme,
+    }) {
       addBase(typographyClass(theme));
       addComponents({
         ...buttonClass(theme),
@@ -40,6 +46,17 @@ module.exports = {
           justifyContent: "center",
         },
       });
+      matchUtilities(
+        {
+          size: (value) => ({
+            width: value,
+            height: value,
+          }),
+        },
+        {
+          values: theme("spacing"),
+        }
+      );
     }),
   ],
 };
