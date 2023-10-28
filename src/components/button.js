@@ -1,5 +1,5 @@
 module.exports = (theme) => ({
-  btn: {
+  ".btn": {
     boxSizing: "border-box",
     display: "flex",
     justifyContent: "center",

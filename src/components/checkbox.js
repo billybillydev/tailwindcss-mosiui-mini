@@ -1,5 +1,5 @@
 module.exports = (theme) => ({
-  checkbox: {
+  ".checkbox": {
     border: `1px solid ${theme("borderColor.DEFAULT")}`,
     borderRadius: theme("borderRadius.sm"),
   },

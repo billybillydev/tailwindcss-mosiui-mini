@@ -1,5 +1,5 @@
 module.exports = (theme) => ({
-  input: {
+  ".input": {
     width: "100%",
     padding: `${theme("spacing.1")} ${theme("spacing.2")}`,
     fontSize: theme("fontSize.base"),
