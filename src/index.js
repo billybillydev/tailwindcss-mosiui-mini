@@ -7,7 +7,7 @@ const linkClass = require("./components/link");
 
 module.exports = {
   content: [],
-  pattern: /([a-zA-Z]+)-./,
+  safelist: [{ pattern: /(size|btn)-./ }],
   theme: {
     extend: {
       colors: ({ colors }) => ({
