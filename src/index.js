@@ -48,7 +48,7 @@ module.exports = {
       });
       matchUtilities(
         {
-          size: (value) => ({
+          size: (/** @type {string} */value) => ({
             width: value,
             height: value,
           }),

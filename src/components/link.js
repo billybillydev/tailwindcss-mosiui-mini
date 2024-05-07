@@ -1,3 +1,4 @@
+/** @type {import("tailwindcss/types/config").CSSRuleObject} */
 module.exports = (theme) => ({
   ".link": {
     color: theme("textColor.slate.500"),

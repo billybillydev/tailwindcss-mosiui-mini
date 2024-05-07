@@ -1,3 +1,4 @@
+/** @type {import("tailwindcss/types/config").CSSRuleObject} */
 module.exports = (theme) => ({
   ".checkbox": {
     border: `1px solid ${theme("borderColor.DEFAULT")}`,

@@ -1,3 +1,4 @@
+/** @type {import("tailwindcss/types/config").CSSRuleObject} */
 module.exports = (theme) => ({
   h1: {
     fontSize: theme("fontSize.3xl"),
