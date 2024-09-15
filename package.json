@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-mosiui-mini",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "A minimal tailwind preset for mosiui",
   "keywords": [
     "design-system",
@@ -19,14 +19,14 @@
   },
   "files": [
     "src",
-    "dist",
+    "types",
     "package.json",
     "tsconfig.json"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
     "prebuild": "tsc"
   },
