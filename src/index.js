@@ -5,6 +5,7 @@ const inputClass = require("./components/input");
 const checkboxClass = require("./components/checkbox");
 const linkClass = require("./components/link");
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [],
   safelist: [{ pattern: /(size|btn)-./ }],
